@@ -1,22 +1,23 @@
+h1,h2,h3{
+    font-family:cursive; 
+  }
+
+img{
+    border-radius: 50%;
+}
+
 .Intro{
     background-color:azure;
     padding-top: 100px;
+    padding-bottom: 100px;
 
 }
-.introtopimage{
-    display: flex;
-    justify-content: center;
-}
-.intromyname,.intromytitle{
+.intromyname,.intromytitle,.introtopimage,.introbottomimage{
     display: flex;
     justify-content: center;
 
 }
-.introbottomimage{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-}
+
 
 .Expertise{
     display: flex;
@@ -25,10 +26,15 @@
     padding-top: 100px;
    
 }
+p{  
+    width: 10%;
+}
+
 
 .Myskills{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .Contact{
@@ -37,17 +43,9 @@
     background-color: azure;
     padding: 50px;
 }
-h1,h2,h3{
-  font-family:cursive; 
-}
 
-p.Expertise {  
-    width: 10%;
-}
 
-img{
-    border-radius: 50%;
-}
+
 .Skills{
     display: grid;
     grid-template-rows: 1fr 1fr;
